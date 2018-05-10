@@ -1,0 +1,19 @@
+[INIT]
+NumPlayers = 2
+[PLAYER]
+#all player config information goes here
+	[[PLAYER1]]
+	StartingMoney = 1000
+
+	[[PLAYER2]]
+	StartingMoney = 1200
+
+[UNITS]
+# all units go here
+# organized by type, xpos, ypos, player ID, unit health, unit starting level
+1 = LightInfantry,28,14,0,100,1
+2 = LightInfantry,10,8,0,15,2
+3 = LightInfantry,14,21,1,73,3
+4 = LightInfantry,6,15,1,45,4
+5 = Battleship,3,3,0,100,5
+6 = Battleship,7,11,1,100,5
